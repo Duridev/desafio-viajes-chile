@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 .logo {
     width: 2rem;
@@ -11,8 +13,3 @@
  z-index: 1;
 }
 
-.navbar-sticky {
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 1000 !important; /* Asegúrate de que el navbar esté por encima de otros elementos */
-}
